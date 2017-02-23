@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WHScrollPageView_Example' do
+  pod 'WHScrollPageView', :path => '../'
+
+  target 'WHScrollPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
