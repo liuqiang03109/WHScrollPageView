@@ -13,7 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		86E6458E894DE22A2769D5CA /* Pods_WHScrollPageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215D8A7B8C2E525CD58BD75C /* Pods_WHScrollPageView_Tests.framework */; };
 		EE8AB180D8F44BA1C3F8B681 /* Pods_WHScrollPageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130EBCA23EE17B55682E2B6E /* Pods_WHScrollPageView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +28,8 @@
 
 /* Begin PBXFileReference section */
 		130EBCA23EE17B55682E2B6E /* Pods_WHScrollPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHScrollPageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		177E26CAD8CEA1A4901DBF5C /* WHScrollPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WHScrollPageView.podspec; path = ../WHScrollPageView.podspec; sourceTree = "<group>"; };
+		177E26CAD8CEA1A4901DBF5C /* WHScrollPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WHScrollPageView.podspec; path = ../WHScrollPageView.podspec; sourceTree = "<group>"; };
 		215D8A7B8C2E525CD58BD75C /* Pods_WHScrollPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHScrollPageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		241A22F5DE3D620180D29B96 /* Pods-WHScrollPageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHScrollPageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHScrollPageView_Tests/Pods-WHScrollPageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WHScrollPageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHScrollPageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +40,9 @@
 		607FACE51AFB9204008FA782 /* WHScrollPageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHScrollPageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8AA40F01A6DF7B0AC796045E /* Pods-WHScrollPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHScrollPageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHScrollPageView_Tests/Pods-WHScrollPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		941BE83E5A9975B104316483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		941BE83E5A9975B104316483 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE492FAAB3D3317F3AB4FCBB /* Pods-WHScrollPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHScrollPageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHScrollPageView_Example/Pods-WHScrollPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D02E0816727DAD47A77AE02F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D02E0816727DAD47A77AE02F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D71B3C19D358D4F8DC1C05CD /* Pods-WHScrollPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHScrollPageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHScrollPageView_Example/Pods-WHScrollPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E6458E894DE22A2769D5CA /* Pods_WHScrollPageView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +140,6 @@
 			children = (
 				BE492FAAB3D3317F3AB4FCBB /* Pods-WHScrollPageView_Example.debug.xcconfig */,
 				D71B3C19D358D4F8DC1C05CD /* Pods-WHScrollPageView_Example.release.xcconfig */,
-				8AA40F01A6DF7B0AC796045E /* Pods-WHScrollPageView_Tests.debug.xcconfig */,
-				241A22F5DE3D620180D29B96 /* Pods-WHScrollPageView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -186,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "WHScrollPageView_Tests" */;
 			buildPhases = (
-				68C26D9E9A304B90F80C17E0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				2D4277EC1F051180ED724853 /* [CP] Embed Pods Frameworks */,
-				0F0ACC31B483C2FECDE96334 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,36 +255,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F0ACC31B483C2FECDE96334 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHScrollPageView_Tests/Pods-WHScrollPageView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D4277EC1F051180ED724853 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHScrollPageView_Tests/Pods-WHScrollPageView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		47943611E22907E5EC57CE5E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,21 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHScrollPageView_Example/Pods-WHScrollPageView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68C26D9E9A304B90F80C17E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E1D3F45129441C08406F5D7E /* [CP] Check Pods Manifest.lock */ = {
@@ -521,7 +467,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AA40F01A6DF7B0AC796045E /* Pods-WHScrollPageView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,7 +486,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 241A22F5DE3D620180D29B96 /* Pods-WHScrollPageView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

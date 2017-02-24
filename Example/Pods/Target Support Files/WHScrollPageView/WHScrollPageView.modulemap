@@ -1,0 +1,6 @@
+framework module WHScrollPageView {
+  umbrella header "WHScrollPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

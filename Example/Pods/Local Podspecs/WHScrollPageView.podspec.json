@@ -1,0 +1,22 @@
+{
+  "name": "WHScrollPageView",
+  "version": "0.1.0",
+  "summary": "A short description of WHScrollPageView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wenhe-liu/WHScrollPageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wenhe-liu": "liu.wen.he@chrjdt.com"
+  },
+  "source": {
+    "git": "https://github.com/wenhe-liu/WHScrollPageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WHScrollPageView/Classes/**/*"
+}

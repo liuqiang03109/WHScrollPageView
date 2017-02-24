@@ -1,0 +1,16 @@
+PODS:
+  - WHScrollPageView (0.1.0)
+
+DEPENDENCIES:
+  - WHScrollPageView (from `../`)
+
+EXTERNAL SOURCES:
+  WHScrollPageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WHScrollPageView: cae26c1633370835c7764ad2da2836cdf32cef94
+
+PODFILE CHECKSUM: 31924a58c078e864e42c5cd46905c608e1423f1f
+
+COCOAPODS: 1.2.0.beta.3

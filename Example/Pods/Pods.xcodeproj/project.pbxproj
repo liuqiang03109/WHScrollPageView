@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B17738AA4857097DDC0588C71DBCD1B /* Pods-WHScrollPageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BF0E1012F27B714C47500FD69D42E6 /* Pods-WHScrollPageView_Example-dummy.m */; };
+		2A2D4D2C748972878A0C478FC92B9FA5 /* WHScrollPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D37B2257BFC3AAD83A3705A173EED4 /* WHScrollPageView-dummy.m */; };
+		39A788AF92FA019A8827F85C111BC7EE /* WHScrollPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DADBEA12F2BC33E91543E4A1D99CC91 /* WHScrollPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D6EAB420FCE08A1EE5E6F7EDBD58FD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A3C9442FFDCD9AE4629014A1F7ED671B /* WHScrollPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E95E93D19870D46413442F59B6894D /* WHScrollPageView.swift */; };
+		C0748111504236C57412710C72253228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D43FBCA69DE84BD869143F28186B6A04 /* Pods-WHScrollPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3E4397422D9B1461B35DE3F68AC4DC /* Pods-WHScrollPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B62072C8E1E2B5D959C5B499489B4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6B67E1E17977ADEDBB419C7A8D84DD;
+			remoteInfo = WHScrollPageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE89496E39EE993D1A342170B9A0384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1171A8BC3057F4D8F5725931602BCE67 /* Pods-WHScrollPageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHScrollPageView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		23E2D1A5DE4BBC587FA256A030BC8FD9 /* Pods-WHScrollPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHScrollPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		58CF015A7C75271EDB4AA64E7DCB6826 /* Pods-WHScrollPageView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHScrollPageView_Example-resources.sh"; sourceTree = "<group>"; };
+		5B5E65A162CFA546559A9E7DD2B825C4 /* Pods-WHScrollPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHScrollPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74FC4FDEECDAE97387715B658BABC67B /* WHScrollPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHScrollPageView-prefix.pch"; sourceTree = "<group>"; };
+		7DADBEA12F2BC33E91543E4A1D99CC91 /* WHScrollPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHScrollPageView-umbrella.h"; sourceTree = "<group>"; };
+		7F703280BF94A185F9082EDE19FC9082 /* Pods-WHScrollPageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHScrollPageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86C5897CFEA0FF6A693B16B726B2E9A7 /* Pods-WHScrollPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WHScrollPageView_Example.modulemap"; sourceTree = "<group>"; };
+		91587BC778351EE785BC9E76A3180E55 /* Pods_WHScrollPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WHScrollPageView_Example.framework; path = "Pods-WHScrollPageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFBE1F44356E43A15C5B09E1B7FF393C /* Pods-WHScrollPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHScrollPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B2D37B2257BFC3AAD83A3705A173EED4 /* WHScrollPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHScrollPageView-dummy.m"; sourceTree = "<group>"; };
+		B3C2B3FAE9B00658EFB473F3AA591C02 /* WHScrollPageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHScrollPageView.xcconfig; sourceTree = "<group>"; };
+		BE5EC2B2E74DC6957A916DB34A7009D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BF0E1012F27B714C47500FD69D42E6 /* Pods-WHScrollPageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHScrollPageView_Example-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE40F1BB95FFC34EB10E2D8E8F30D725 /* WHScrollPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WHScrollPageView.modulemap; sourceTree = "<group>"; };
+		DC3E4397422D9B1461B35DE3F68AC4DC /* Pods-WHScrollPageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHScrollPageView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E3BDDAF7BE51C27C141C0AF47D9CC7A3 /* WHScrollPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHScrollPageView.framework; path = WHScrollPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E95E93D19870D46413442F59B6894D /* WHScrollPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WHScrollPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F1A4229D1E9B3D9F0287FCD3154D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6EAB420FCE08A1EE5E6F7EDBD58FD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E6899FCA17840C187AE5C1541C8F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0748111504236C57412710C72253228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF2F236C8A744C5B8009CFCF68C432B /* Pods-WHScrollPageView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0EE89496E39EE993D1A342170B9A0384 /* Info.plist */,
+				86C5897CFEA0FF6A693B16B726B2E9A7 /* Pods-WHScrollPageView_Example.modulemap */,
+				7F703280BF94A185F9082EDE19FC9082 /* Pods-WHScrollPageView_Example-acknowledgements.markdown */,
+				23E2D1A5DE4BBC587FA256A030BC8FD9 /* Pods-WHScrollPageView_Example-acknowledgements.plist */,
+				C8BF0E1012F27B714C47500FD69D42E6 /* Pods-WHScrollPageView_Example-dummy.m */,
+				1171A8BC3057F4D8F5725931602BCE67 /* Pods-WHScrollPageView_Example-frameworks.sh */,
+				58CF015A7C75271EDB4AA64E7DCB6826 /* Pods-WHScrollPageView_Example-resources.sh */,
+				DC3E4397422D9B1461B35DE3F68AC4DC /* Pods-WHScrollPageView_Example-umbrella.h */,
+				5B5E65A162CFA546559A9E7DD2B825C4 /* Pods-WHScrollPageView_Example.debug.xcconfig */,
+				AFBE1F44356E43A15C5B09E1B7FF393C /* Pods-WHScrollPageView_Example.release.xcconfig */,
+			);
+			name = "Pods-WHScrollPageView_Example";
+			path = "Target Support Files/Pods-WHScrollPageView_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BFAB5567874FBD5D16D79493BC36ADE2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D359ECEB90A32B7F7AA01D8A91152778 /* Products */,
+				F80F8392DBAC144F18A1531CB755DCAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E1D189C1D1C2483D01CFC37D43378B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5EC2B2E74DC6957A916DB34A7009D0 /* Info.plist */,
+				CE40F1BB95FFC34EB10E2D8E8F30D725 /* WHScrollPageView.modulemap */,
+				B3C2B3FAE9B00658EFB473F3AA591C02 /* WHScrollPageView.xcconfig */,
+				B2D37B2257BFC3AAD83A3705A173EED4 /* WHScrollPageView-dummy.m */,
+				74FC4FDEECDAE97387715B658BABC67B /* WHScrollPageView-prefix.pch */,
+				7DADBEA12F2BC33E91543E4A1D99CC91 /* WHScrollPageView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WHScrollPageView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAB5567874FBD5D16D79493BC36ADE2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F03CC3DFBA335407FE8EF4C7A515C91D /* WHScrollPageView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D359ECEB90A32B7F7AA01D8A91152778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91587BC778351EE785BC9E76A3180E55 /* Pods_WHScrollPageView_Example.framework */,
+				E3BDDAF7BE51C27C141C0AF47D9CC7A3 /* WHScrollPageView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE578AA2C1CA5EECA408A8E147A5401 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8E95E93D19870D46413442F59B6894D /* WHScrollPageView.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F03CC3DFBA335407FE8EF4C7A515C91D /* WHScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D189C1D1C2483D01CFC37D43378B7 /* Support Files */,
+				F89496EE4CACA105AABB004F890699A2 /* WHScrollPageView */,
+			);
+			name = WHScrollPageView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F80F8392DBAC144F18A1531CB755DCAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2F236C8A744C5B8009CFCF68C432B /* Pods-WHScrollPageView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F89496EE4CACA105AABB004F890699A2 /* WHScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				EEE578AA2C1CA5EECA408A8E147A5401 /* Classes */,
+			);
+			name = WHScrollPageView;
+			path = WHScrollPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F44F92D7111321134CA8E2E00C7C003B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43FBCA69DE84BD869143F28186B6A04 /* Pods-WHScrollPageView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3ED5A78D2F83F79C026E7F06980544 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A788AF92FA019A8827F85C111BC7EE /* WHScrollPageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54636912545A7DFC9742DCCF52FFAD39 /* Pods-WHScrollPageView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989AB51A93FF8D0BE83F46DDAECDB1F8 /* Build configuration list for PBXNativeTarget "Pods-WHScrollPageView_Example" */;
+			buildPhases = (
+				791CA27196EE04A0F599F66C72E0A2A8 /* Sources */,
+				47F1A4229D1E9B3D9F0287FCD3154D1F /* Frameworks */,
+				F44F92D7111321134CA8E2E00C7C003B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D39F4FD30694DE7BA4D58DFB3ABBC12 /* PBXTargetDependency */,
+			);
+			name = "Pods-WHScrollPageView_Example";
+			productName = "Pods-WHScrollPageView_Example";
+			productReference = 91587BC778351EE785BC9E76A3180E55 /* Pods_WHScrollPageView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A6B67E1E17977ADEDBB419C7A8D84DD /* WHScrollPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EC15FA56298719DE7B573EE1C125BF /* Build configuration list for PBXNativeTarget "WHScrollPageView" */;
+			buildPhases = (
+				3FEDB51C22ED88ED7BDC05CC904E2D8B /* Sources */,
+				C8E6899FCA17840C187AE5C1541C8F45 /* Frameworks */,
+				FA3ED5A78D2F83F79C026E7F06980544 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHScrollPageView;
+			productName = WHScrollPageView;
+			productReference = E3BDDAF7BE51C27C141C0AF47D9CC7A3 /* WHScrollPageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D359ECEB90A32B7F7AA01D8A91152778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54636912545A7DFC9742DCCF52FFAD39 /* Pods-WHScrollPageView_Example */,
+				8A6B67E1E17977ADEDBB419C7A8D84DD /* WHScrollPageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEDB51C22ED88ED7BDC05CC904E2D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2D4D2C748972878A0C478FC92B9FA5 /* WHScrollPageView-dummy.m in Sources */,
+				A3C9442FFDCD9AE4629014A1F7ED671B /* WHScrollPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791CA27196EE04A0F599F66C72E0A2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17738AA4857097DDC0588C71DBCD1B /* Pods-WHScrollPageView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D39F4FD30694DE7BA4D58DFB3ABBC12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHScrollPageView;
+			target = 8A6B67E1E17977ADEDBB419C7A8D84DD /* WHScrollPageView */;
+			targetProxy = 3B62072C8E1E2B5D959C5B499489B4AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		606454EED01B13612AF5F3657078EC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBE1F44356E43A15C5B09E1B7FF393C /* Pods-WHScrollPageView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WHScrollPageView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHScrollPageView_Example/Pods-WHScrollPageView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WHScrollPageView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AED484D2CDA3718CA28551475DC76AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C2B3FAE9B00658EFB473F3AA591C02 /* WHScrollPageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WHScrollPageView/WHScrollPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHScrollPageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHScrollPageView/WHScrollPageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WHScrollPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		756996CE23BC7D5A0254F81D58EE8757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C2B3FAE9B00658EFB473F3AA591C02 /* WHScrollPageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WHScrollPageView/WHScrollPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHScrollPageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHScrollPageView/WHScrollPageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WHScrollPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB2F0DC778652BFA72CD48A92CD5F7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5E65A162CFA546559A9E7DD2B825C4 /* Pods-WHScrollPageView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WHScrollPageView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHScrollPageView_Example/Pods-WHScrollPageView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WHScrollPageView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EC15FA56298719DE7B573EE1C125BF /* Build configuration list for PBXNativeTarget "WHScrollPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756996CE23BC7D5A0254F81D58EE8757 /* Debug */,
+				6AED484D2CDA3718CA28551475DC76AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989AB51A93FF8D0BE83F46DDAECDB1F8 /* Build configuration list for PBXNativeTarget "Pods-WHScrollPageView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2F0DC778652BFA72CD48A92CD5F7C3 /* Debug */,
+				606454EED01B13612AF5F3657078EC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
