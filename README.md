@@ -20,6 +20,13 @@ it, simply add the following line to your Podfile:
 pod "WHScrollPageView"
 ```
 
+```swift
+let url = URL(string: "url_of_your_image")
+imageView.kf.setImage(with: url)
+```
+
+
+
 ## Author
 
 wenhe-liu, liu.wen.he@chrjdt.com
