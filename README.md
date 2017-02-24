@@ -42,8 +42,7 @@ pod "WHScrollPageView"
 
 ## Author
 
-wenhe-liu, liu.wen.he@chrjdt.com
-
+wenhe-liu, liuqiang03109@gmail.com
 ## License
 
 WHScrollPageView is available under the MIT license. See the LICENSE file for more info.
