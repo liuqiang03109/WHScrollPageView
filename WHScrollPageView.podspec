@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WHScrollPageView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WHScrollPageView.'
+  s.summary          = 'WHScrollPageView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+一个无线滚动的轮播器，只需两行代码就可以搞定网络加载图片，并且实现图片的click监听事件
                        DESC
 
-  s.homepage         = 'https://github.com/wenhe-liu/WHScrollPageView'
+  s.homepage         = 'https://github.com/liuqiang03109/WHScrollPageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wenhe-liu' => 'liu.wen.he@chrjdt.com' }
-  s.source           = { :git => 'https://github.com/wenhe-liu/WHScrollPageView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuqiang03109/WHScrollPageView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
